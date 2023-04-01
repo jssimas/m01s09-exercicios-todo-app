@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Header } from "./components/Header";
+import { TodoProvider } from "./contexts/ToDoProvider";
 
 export const App = () => {
   return (
